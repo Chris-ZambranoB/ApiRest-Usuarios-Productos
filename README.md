@@ -27,5 +27,5 @@ API RESTful desarrollada con **FastAPI** que implementa autenticación segura JW
 
 ### 1. Clonar el repositorio
 ```bash
-git clone [https://github.com/Christopher-Zambrano/ApiRest-Usuarios-Productos.git](https://github.com/Christopher-Zambrano/ApiRest-Usuarios-Productos.git)
+git clone [https://github.com/Chris-ZambranoB/ApiRest-Usuarios-Productos.git](https://github.com/Chris-ZambranoB/ApiRest-Usuarios-Productos.git)
 cd ApiRest-Usuarios-Productos
