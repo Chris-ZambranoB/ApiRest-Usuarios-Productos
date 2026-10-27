@@ -29,3 +29,46 @@ API RESTful desarrollada con **FastAPI** que implementa autenticación segura JW
 ```bash
 git clone [https://github.com/Chris-ZambranoB/ApiRest-Usuarios-Productos.git](https://github.com/Chris-ZambranoB/ApiRest-Usuarios-Productos.git)
 cd ApiRest-Usuarios-Productos
+```
+
+### 2. Crear y activar un entorno virtual
+
+En Windows (CMD / PowerShell):
+
+python -m venv .venv
+.venv\Scripts\activate
+
+En Linux / macOS:
+
+python3 -m venv .venv
+source .venv/bin/activate
+
+### 3. Instalar las dependencias
+
+Con el entorno virtual activado, instala todas las librerías indicadas en el requirements.txt:
+
+pip install -r requirements.txt
+
+### 4. Configurar variables de entorno
+
+Crea un archivo llamado .env en la raíz del proyecto y define las variables de configuración de tu aplicación (por ejemplo, para JWT):
+
+SECRET_KEY=tu_clave_secreta_aqui
+ALGORITHM=HS256
+ACCESS_TOKEN_EXPIRE_MINUTES=30
+
+### 5. Ejecutar la aplicación
+
+Inicia el servidor de desarrollo utilizando Uvicorn:
+
+uvicorn main:app --reload
+
+La API estará ejecutándose en http://127.0.0.1:8000.
+
+### Documentación Interactiva
+
+Una vez que el servidor esté en marcha, puedes probar todos los endpoints desde la documentación interactiva:
+
+Swagger UI: http://127.0.0.1:8000/docs
+
+ReDoc: http://127.0.0.1:8000/redoc
