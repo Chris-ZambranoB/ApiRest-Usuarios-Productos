@@ -54,8 +54,6 @@ pip install -r requirements.txt
 Crea un archivo llamado .env en la raíz del proyecto y define las variables de configuración de tu aplicación (por ejemplo, para JWT):
 
 SECRET_KEY=tu_clave_secreta_aqui
-ALGORITHM=HS256
-ACCESS_TOKEN_EXPIRE_MINUTES=30
 
 ### 5. Ejecutar la aplicación
 
